@@ -3,12 +3,12 @@ import ProductCategoryRow from "../ProductCategoryRow";
 import ProductRow from "../ProductRow";
 
 function ProductTable({
-  filterText,
-  inStockOnly,
+  filterText = '',
+  inStockOnly = false,
   products,
 }: {
-  filterText: string;
-  inStockOnly: boolean;
+  filterText?: string;
+  inStockOnly?: boolean;
   products: IProduct[];
 }) {
   const rows: React.ReactElement[] = [];
