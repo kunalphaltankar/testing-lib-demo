@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCategoryRow should render as table row header 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <th
+          colspan="2"
+        >
+          Sporting Goods
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
