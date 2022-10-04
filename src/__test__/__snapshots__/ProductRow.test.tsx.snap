@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Row should render stocked product 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          Baseball
+        </td>
+        <td>
+          $9.99
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Product Row should render with unstocked product 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <span
+            style="color: red;"
+          >
+            Basketball
+          </span>
+        </td>
+        <td>
+          $29.99
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
